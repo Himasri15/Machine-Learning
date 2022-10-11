@@ -48,5 +48,22 @@ confusion Matrix is:
  [ 10   0 321  85]
  [  0   0   0  16]]
  
+ ->By using confusion matrix got Precision,recall,F1-Score,Macro,weighted F1
+ ->By using classification_report we got
+                precision    recall  f1-score   support
+
+         acc       0.18      0.04      0.06        79
+        good       0.00      0.00      0.00        15
+       unacc       0.72      0.76      0.74       217
+       vgood       0.21      1.00      0.35        16
+
+    accuracy                           0.56       327
+   macro avg       0.28      0.45      0.29       327
+weighted avg       0.53      0.56      0.52       327
+ 
+ 
+ -> So based on output
+ On independent variables buying, maint, doors, persons, lug_boot and safety and dependent variable class after completing predictions by using confusion metric on each class value we can understand that unacc got 74%, vgood got 35%, acc got 8% and good got 0.So based on output we cannot recommend the cars.
+ 
  
  
